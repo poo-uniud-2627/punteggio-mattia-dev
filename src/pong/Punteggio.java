@@ -135,7 +135,7 @@ public class Punteggio {
      *           segnati dopo; chi la usa non deve contare né sull'una né sull'altra cosa.
      */
     public List<Lato> getStoria() {
-        return Storia; 
+        return List.copyOf(Storia); 
     }
 
     /**
